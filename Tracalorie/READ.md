@@ -1,1 +1,1 @@
-This is a simple calorie tracking application using only modern javascript.In order To make the data persistent localStorage is used.
+This is a simple calorie tracking application using only modern javascript.In order To make the data persistent localStorage is used.In this application you can basically add,update,remove and clear food with respective calorie.
