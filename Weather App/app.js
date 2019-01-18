@@ -1,46 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Show Local Weather</title>
-    <style>
-        body{
-            background: #f3f3f3;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: "100%";
-            width: "100%";
-
-        }
-        h1{
-            font-size: 60px;
-            padding-top: 60px;
-        }
-        .container{
-            text-align: center;
-            font-size: 28px;
-        }
-        #temp:hover{
-            cursor: pointer;
-        }
-    </style>
-
-</head>
-<body>
-    <div class="container">
-        <h1>Weather App</h1>
-        <div class="weather">
-            <p id="place"></p>
-            <p id="temp" onclick="toggle()"></p>
-            <p id="desc"></p>
-            <div id="icon"></div>
-        </div>
-    </div>
-    <script>
-        let place = document.getElementById("place");
+let place = document.getElementById("place");
         let temp = document.getElementById("temp");
         let desc = document.getElementById("desc");
         let icon = document.getElementById("icon");
@@ -83,6 +41,3 @@
                     flag = 0;
                 }
             }
-    </script>
-</body>
-</html>
