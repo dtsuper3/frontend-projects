@@ -31,7 +31,7 @@ let place = document.getElementById("place");
             var flag = 0;
             function toggle(){
                 if(!flag){
-                        temp.innerText=parseInt(temp.innerText)*(9/5)+32;
+                        temp.innerText=Math.round(parseInt(temp.innerText)*(9/5)+32);
                         temp.innerHTML += "&#x2109";
                         flag = 1;
                     }   
